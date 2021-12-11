@@ -85,7 +85,7 @@ body{
     position:absolute;
     left:50%;
     top:37%;
-    background: linear-gradient(#f779a0,70%,#f5598a);
+    background: linear-gradient(#f779a0,50%,#f5598a);
     width:5.5rem;
     height:9rem;
     border-radius: 50%;
@@ -105,3 +105,48 @@ body{
     border-right: 0.5rem solid black;
     border-bottom: 0.5rem solid black;
 }
+
+.hoothoot__eyelid{
+    background:black;
+    height:5rem;
+    width:3rem;
+    position:absolute;
+}
+
+.hoothoot__eyelid--first{
+    left:15%;
+    transform: rotate(50deg);
+}
+
+.hoothoot__eyelid--second{
+    left:24%;
+    top: 53%;
+    height: 5.5rem;
+    transform: rotate(20deg);
+}
+
+.hoothoot__eyelid--third{
+    left:37%;
+    top: 51%;
+    transform: rotate(-20deg);
+}
+
+.hoothoot__eyelid--fourth{
+    right:37%;
+    top: 51%;
+    transform: rotate(20deg);
+}
+
+.hoothoot__eyelid--fifth{
+    right:24%;
+    top: 53%;
+    height: 5.5rem;
+    transform: rotate(-20deg);
+}
+
+
+.hoothoot__eyelid--sixth{
+    right:15%;
+    transform: rotate(-50deg);
+}
+
