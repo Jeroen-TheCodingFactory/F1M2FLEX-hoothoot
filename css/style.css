@@ -24,8 +24,6 @@ body{
 }
 
 .hoothoot{
-    width:50rem;
-    height:50rem;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -54,11 +52,15 @@ body{
     filter: blur(2px);
 }
 
+.hoothoot__belly:hover{
+    cursor:pointer;
+}
+
 .hoothoot__eye {
-    width: 18rem;
-    height:18rem;
+    width: 17rem;
+    height:17rem;
     position:absolute;
-    top:20%;
+    top:12%;
     background:#A13333;
     border-radius: 50%;
     border: 2rem solid var(--hoothoot-black-color);
@@ -85,11 +87,11 @@ body{
 }
 
 .hoothoot__eye--left{
-    left:15%;
+    left:9%;
 }
 
 .hoothoot__eye--right{
-    right: 15%;
+    right: 9%;
 }
 
 .hoothoot__pupil{
@@ -106,7 +108,7 @@ body{
 .hoothoot__beak{
     position:absolute;
     left:50%;
-    top:37%;
+    top:33%;
     background: linear-gradient(#f779a0,50%,#f5598a);
     width:5.5rem;
     height:9rem;
@@ -137,45 +139,47 @@ body{
 }
 
 .hoothoot__eyelid--first{
-    left:15%;
+    top:40%;
+    left:10%;
     transform: rotate(50deg);
 }
 
 .hoothoot__eyelid--second{
-    left:24%;
-    top: 53%;
+    left:19%;
+    top: 48%;
     height: 5.5rem;
     transform: rotate(20deg);
 }
 
 .hoothoot__eyelid--third{
-    left:37%;
-    top: 51%;
+    left:33%;
+    top: 45%;
     transform: rotate(-20deg);
 }
 
 .hoothoot__eyelid--fourth{
-    right:37%;
-    top: 51%;
+    right:33%;
+    top: 45%;
     transform: rotate(20deg);
 }
 
 .hoothoot__eyelid--fifth{
-    right:24%;
-    top: 53%;
+    right:19%;
+    top: 48%;
     height: 5.5rem;
     transform: rotate(-20deg);
 }
 
 
 .hoothoot__eyelid--sixth{
-    right:15%;
+    top:40%;
+    right:10%;
     transform: rotate(-50deg);
 }
 
 .hoothoot__eyebrow{
     position:absolute;
-    top:-1%;
+    top:-12%;
     width:2.5rem;
     height:19rem;
     background:var(--hoothoot-black-color);
