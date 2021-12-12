@@ -15,10 +15,6 @@
  --hoothoot-black-gradient-transparent: rgba(4, 3, 3,0.6);
  --background-light-color: #F4A442;
  --background-dark-color: #d57b0c;
- /* scales */
- /* mobile scale is removed as var in code because of glitch on older iphone's */
- --mobile-scale: 0.6;
- --desktop-scale: 1;
 }
 
 html{
@@ -42,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     position:relative;
-    transform:scale(var(--mobile-scale));
+    transform:scale(0.6);
 }
 
 .hoothoot__body{
@@ -231,6 +227,6 @@ body{
 
 @media screen and (min-width: 37.5rem) {
     .hoothoot{
-        transform:scale(0.6);
+        transform:scale(1);
     }
 }
