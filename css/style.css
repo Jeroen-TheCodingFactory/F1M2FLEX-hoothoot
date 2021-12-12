@@ -160,6 +160,17 @@ body{
     background:black;
 }
 
+.hoothoot__eyebrow::after{
+    content:"";
+    position:absolute;
+    top:-70%;
+    left:0%;
+    width:11rem;
+    height:16rem;
+    background:black;
+    transform:translateX(-38%);
+    clip-path: polygon(50% 0%, 100% 80%, 60% 100%, 40% 100%, 0% 80%);
+}
 .hoothoot__eyebrow--left{
     transform: rotate(-50deg);
     left:35%;
