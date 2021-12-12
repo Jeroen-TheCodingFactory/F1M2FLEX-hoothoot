@@ -21,6 +21,8 @@ Bij het vak "Flex CSS-Art" leren studenten van de opleiding Software Developer o
 8. Dat en container met fixed height en width (.hoothoot in mijn geval) ervoor kan zorgen dat de responsiviteit breekt. Dit heb ik nu meerdere malen meegemaakt met het programmeren van CSS-Art. Een auto height en width is vele malen beter. 
 9. Niet echt "geleerd" maar wel opnieuw gemerkt hoe makkelijk CSS variables zijn om dingen aan te passen. Binnen een paar seconden was Hoothoot omgetoverd naar zijn shiny variant.
 10. Geleerd hoe je met een kleine gradient met transparantie een gaaf "dof" effect kan geven. Zie de clip-path figuren op hoothoot zijn wenkbrauwen!
+11. Geleerd dat de Safari Browser (zucht...) geen %-teken in scale() accepteert waardoor de scale niet werkte.
+12. Geleerd dat je voor de Safari Browser naast appereance: none ook andere properties moet gebruiken om een checkbox weg te halen. Width en Height dienen op 0 gezet te worden om het te laten werken op Safari browsers. Getest op Iphone 7, Safari.
 
 ## Screenshots
 Verschillende screenshots van Hoothoot op desktop. Ook heb ik de <i>shiny</i> variant van Hoothoot toegevoegd!
@@ -44,3 +46,4 @@ https://hoothoot.css-art.nl
 3. OpenGraph, een site voor het makkelijk genereren van Open Graph Protocol (OGP) meta-tags => https://opengraph.xyz
 4. Video geconverteerd naar MP3 voor het afspelen van Hoothoot zijn/haar "cry" => https://www.youtube.com/watch?v=0V-YC7Ty1FM
 5. Dé site voor alle informatie over welke Pokémon dan ook. In dit geval Hoothoot => https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon) 
+6. Dé applicatie voor het testen van je code op oudere en andere browsers => https://browserstack.com 
