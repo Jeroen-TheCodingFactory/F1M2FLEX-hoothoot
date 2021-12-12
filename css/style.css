@@ -21,6 +21,7 @@ body{
     justify-content: center;
     align-items: center;
     background:linear-gradient(45deg,#F4A442,30%,#d57b0c);
+    overflow: hidden;
 }
 
 .hoothoot{
@@ -28,6 +29,7 @@ body{
     justify-content: center;
     align-items: center;
     position:relative;
+    transform:scale(0.5);
 }
 
 .hoothoot__body{
@@ -205,4 +207,10 @@ body{
 .hoothoot__eyebrow--right{
     transform: rotate(50deg);
     right:35%;
+}
+
+@media screen and (min-width: 37.5rem) {
+    .hoothoot{
+        transform:scale(1);
+    }
 }
