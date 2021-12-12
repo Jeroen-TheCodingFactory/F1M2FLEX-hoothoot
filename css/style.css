@@ -41,6 +41,31 @@ body{
     transform:scale(0.6);
 }
 
+/* input and label for waking hoothoot up */
+label[for="hoothoot__checkbox"]{
+    position:absolute;
+    top:-20%;
+    left:0;
+    width:100%;
+    height:140%;
+    z-index: 3;
+    opacity: 0;
+    display:block;
+}
+
+label[for="hoothoot__checkbox"]:hover{
+    cursor:pointer;
+}
+
+input[id="hoothoot__checkbox"]{
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input[id="hoothoot__checkbox"]:checked ~ .hoothoot__eye::after{
+    transform: scaleY(0%);
+}
+
 .hoothoot__body{
     width:40rem;
     height:41.5rem;
@@ -93,9 +118,6 @@ body{
     border-bottom: 0.3rem solid var(--hoothoot-black-color);
 }
 
-.hoothoot:hover .hoothoot__eye::after{
-    transform: scaleY(0%);
-}
 
 .hoothoot__eye--left{
     left:9%;
