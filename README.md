@@ -1,4 +1,4 @@
-# Textbubble (Flat / 2D)
+# Hoothoot
 [![Het gerealiseerde eindproduct op desktop](https://hoothoot.css-art.nl/img/hoothoot.png)](https://hoothoot.css-art.nl/video/promo.mp4) 
 <i>Klik op de video hierboven voor een demo!</i>
 
