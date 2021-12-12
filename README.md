@@ -17,14 +17,16 @@ Bij het vak "Flex CSS-Art" leren studenten van de opleiding Software Developer o
 4. Hoe een hele kleine blur, bijvoorbeeld 1px, een kleur meer kan lijken op een vacht (door de blur).
 5. Hoe een kleine border-bottom op een circle, zonder andere borders, op een ooglid lijkt.
 6. Hoe je met een transition-delay beter op een muziekje kan aansluiten, zoals bij Hoothoot zijn/haar "cry".
+7. Dat -webkit- nodig is voor clip-path voor safari.
+8. Dat en container met fixed height en width (.hoothoot in mijn geval) ervoor kan zorgen dat de responsiviteit breekt. Dit heb ik nu meerdere malen meegemaakt met het programmeren van CSS-Art. Een auto height en width is vele malen beter. 
 
 ## Screenshots
 Verschillende screenshots van Hoothoot op desktop.
 
 ### Desktop Screenshot
-![Het gerealiseerde eindproduct op desktop: Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript](https://hoothoot.css-art.nl/img/hoothoot.png "Hoothoot")
+![Het gerealiseerde eindproduct op desktop: Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript](https://hoothoot.css-art.nl/img/hoothoot.png "Hoothoot wakker")
 
-![Het gerealiseerde eindproduct op desktop: Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript. Hij slaapt op deze foto!](https://hoothoot.css-art.nl/img/hoothoot--sleeping.png "Hoothoot")
+![Het gerealiseerde eindproduct op desktop: Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript. Hij/Zij slaapt op deze foto!](https://hoothoot.css-art.nl/img/hoothoot--sleeping.png "Hoothoot slapend")
 
 ## Live demo
 https://hoothoot.css-art.nl
