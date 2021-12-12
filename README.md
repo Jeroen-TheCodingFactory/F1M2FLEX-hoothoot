@@ -25,11 +25,12 @@ Bij het vak "Flex CSS-Art" leren studenten van de opleiding Software Developer o
 ## Screenshots
 Verschillende screenshots van Hoothoot op desktop. Ook heb ik de <i>shiny</i> variant van Hoothoot toegevoegd!
 
-### Desktop Screenshot
+### Hoothoot
 ![Het gerealiseerde eindproduct op desktop: Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript](https://hoothoot.css-art.nl/img/hoothoot.png "Hoothoot wakker")
 
 ![Het gerealiseerde eindproduct op desktop: Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript. Hij/Zij slaapt op deze foto!](https://hoothoot.css-art.nl/img/hoothoot--sleeping.png "Hoothoot slapend")
 
+### Shiny Hoothoot
 ![Het gerealiseerde eindproduct op desktop: Shiny Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript](https://hoothoot.css-art.nl/img/hoothoot--shiny.png "Shiny Hoothoot wakker")
 
 ![Het gerealiseerde eindproduct op desktop: Shiny Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript. Hij/Zij slaapt op deze foto!](https://hoothoot.css-art.nl/img/hoothoot--shiny-sleeping.png "Shiny Hoothoot slapend")
@@ -42,3 +43,4 @@ https://hoothoot.css-art.nl
 2. Afbeelding gemaakt ter inspiratie voor Hoothoot => https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.geekno.com%2Fwp-content%2Fuploads%2F2017%2F02%2Fhoothoot.png&f=1&nofb=1 
 3. OpenGraph, een site voor het makkelijk genereren van Open Graph Protocol (OGP) meta-tags => https://opengraph.xyz
 4. Video geconverteerd naar MP3 voor het afspelen van Hoothoot zijn/haar "cry" => https://www.youtube.com/watch?v=0V-YC7Ty1FM
+5. Dé site voor alle informatie over welke Pokémon dan ook. In dit geval Hoothoot => https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon) 
