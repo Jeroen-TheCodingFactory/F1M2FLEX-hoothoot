@@ -118,7 +118,6 @@ input[id="hoothoot__checkbox"]:checked ~ .hoothoot__eye::after{
     border-bottom: 0.3rem solid var(--hoothoot-black-color);
 }
 
-
 .hoothoot__eye--left{
     left:9%;
 }
@@ -206,7 +205,6 @@ input[id="hoothoot__checkbox"]:checked ~ .hoothoot__eye::after{
     transform: rotate(-20deg);
 }
 
-
 .hoothoot__eyelid--sixth{
     top:40%;
     right:10%;
@@ -215,7 +213,7 @@ input[id="hoothoot__checkbox"]:checked ~ .hoothoot__eye::after{
 
 .hoothoot__eyebrow{
     position:absolute;
-    top:-12%;
+    top:-11%;
     width:2.5rem;
     height:19rem;
     background:var(--hoothoot-black-color);
