@@ -19,14 +19,20 @@ Bij het vak "Flex CSS-Art" leren studenten van de opleiding Software Developer o
 6. Hoe je met een transition-delay beter op een muziekje kan aansluiten, zoals bij Hoothoot zijn/haar "cry".
 7. Dat -webkit- nodig is voor clip-path voor safari.
 8. Dat en container met fixed height en width (.hoothoot in mijn geval) ervoor kan zorgen dat de responsiviteit breekt. Dit heb ik nu meerdere malen meegemaakt met het programmeren van CSS-Art. Een auto height en width is vele malen beter. 
+9. Niet echt "geleerd" maar wel opnieuw gemerkt hoe makkelijk CSS variables zijn om dingen aan te passen. Binnen een paar seconden was Hoothoot omgetoverd naar zijn shiny variant.
+10. Geleerd hoe je met een kleine gradient met transparantie een gaaf "dof" effect kan geven. Zie de clip-path figuren op hoothoot zijn wenkbrauwen!
 
 ## Screenshots
-Verschillende screenshots van Hoothoot op desktop.
+Verschillende screenshots van Hoothoot op desktop. Ook heb ik de <i>shiny</i> variant van Hoothoot toegevoegd!
 
 ### Desktop Screenshot
 ![Het gerealiseerde eindproduct op desktop: Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript](https://hoothoot.css-art.nl/img/hoothoot.png "Hoothoot wakker")
 
 ![Het gerealiseerde eindproduct op desktop: Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript. Hij/Zij slaapt op deze foto!](https://hoothoot.css-art.nl/img/hoothoot--sleeping.png "Hoothoot slapend")
+
+![Het gerealiseerde eindproduct op desktop: Shiny Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript](https://hoothoot.css-art.nl/img/hoothoot--shiny.png "Shiny Hoothoot wakker")
+
+![Het gerealiseerde eindproduct op desktop: Shiny Hoothoot met animatie, gerealiseerd in HTML, CSS en Javascript. Hij/Zij slaapt op deze foto!](https://hoothoot.css-art.nl/img/hoothoot--shiny-sleeping.png "Shiny Hoothoot slapend")
 
 ## Live demo
 https://hoothoot.css-art.nl
