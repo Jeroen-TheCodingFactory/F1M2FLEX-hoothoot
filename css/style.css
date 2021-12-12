@@ -114,6 +114,7 @@ input[id="hoothoot__checkbox"]:checked ~ .hoothoot__eye::after{
     background:var(--hoothoot-body-color);
     border-radius:50%;
     transition: 0.3s;
+    transition-delay: 0.3s;
     transform-origin: top center;
     border-bottom: 0.3rem solid var(--hoothoot-black-color);
 }
