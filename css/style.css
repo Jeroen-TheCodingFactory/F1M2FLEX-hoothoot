@@ -60,6 +60,7 @@ body{
     background:red;
     border-radius: 50%;
     border: 2rem solid black;
+    z-index: 1;
 }
 
 .hoothoot__eye--left{
@@ -92,6 +93,7 @@ body{
     transform: translateX(-50%);
     border: 0.3rem solid black;
     overflow:hidden;    
+    z-index: 2;
 }
 
 .hoothoot__beak::after{
@@ -150,3 +152,20 @@ body{
     transform: rotate(-50deg);
 }
 
+.hoothoot__eyebrow{
+    position:absolute;
+    top:-4%;
+    width:2.5rem;
+    height:22rem;
+    background:black;
+}
+
+.hoothoot__eyebrow--left{
+    transform: rotate(-50deg);
+    left:35%;
+}
+
+.hoothoot__eyebrow--right{
+    transform: rotate(50deg);
+    right:35%;
+}
