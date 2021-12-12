@@ -8,6 +8,7 @@
  /*colors*/
  --hoothoot-body-color: #8B4840;
  --hoothoot-belly-color: #D2AE9F;
+ --hoothoot-black-color: #040303;
 }
 
 html{
@@ -19,6 +20,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(45deg,#F4A442,30%,#d57b0c);
 }
 
 .hoothoot{
@@ -37,7 +39,7 @@ body{
     border-radius: 50%;
     position:relative;
     overflow: hidden;
-    border: 0.3rem solid black;
+    border: 0.3rem solid var(--hoothoot-black-color);
 }
 
 .hoothoot__belly{
@@ -57,9 +59,9 @@ body{
     height:18rem;
     position:absolute;
     top:20%;
-    background:red;
+    background:#A13333;
     border-radius: 50%;
-    border: 2rem solid black;
+    border: 2rem solid var(--hoothoot-black-color);
     z-index: 1;
 }
 
@@ -74,7 +76,7 @@ body{
 .hoothoot__pupil{
     width:4rem;
     height: 4rem;
-    background:black;
+    background:var(--hoothoot-black-color);
     position:absolute;
     top:50%;
     left:50%;
@@ -91,7 +93,7 @@ body{
     height:9rem;
     border-radius: 50%;
     transform: translateX(-50%);
-    border: 0.3rem solid black;
+    border: 0.3rem solid var(--hoothoot-black-color);
     overflow:hidden;    
     z-index: 2;
 }
@@ -104,12 +106,12 @@ body{
     transform:rotate(45deg);
     top:10%;
     left:0;
-    border-right: 0.5rem solid black;
-    border-bottom: 0.5rem solid black;
+    border-right: 0.5rem solid var(--hoothoot-black-color);
+    border-bottom: 0.5rem solid var(--hoothoot-black-color);
 }
 
 .hoothoot__eyelid{
-    background:black;
+    background:var(--hoothoot-black-color);
     height:5rem;
     width:3rem;
     position:absolute;
@@ -157,7 +159,7 @@ body{
     top:-1%;
     width:2.5rem;
     height:19rem;
-    background:black;
+    background:var(--hoothoot-black-color);
 }
 
 .hoothoot__eyebrow::after{
@@ -167,7 +169,7 @@ body{
     left:0%;
     width:11rem;
     height:16rem;
-    background:black;
+    background:linear-gradient(rgb(4, 3, 3,0.6),40%,#040303);
     transform:translateX(-38%);
     clip-path: polygon(50% 0%, 100% 80%, 60% 100%, 40% 100%, 0% 80%);
 }
