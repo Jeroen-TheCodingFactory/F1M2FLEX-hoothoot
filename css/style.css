@@ -60,10 +60,12 @@ label[for="hoothoot__checkbox"]:hover{
 input[id="hoothoot__checkbox"]{
   appearance: none;
   -webkit-appearance: none;
+    width:0;
+    height:0;
 }
 
 input[id="hoothoot__checkbox"]:checked ~ .hoothoot__eye::after{
-    transform: scaleY(0%);
+    transform: scaleY(0);
 }
 
 .hoothoot__body{
@@ -246,7 +248,7 @@ input[id="hoothoot__checkbox"]:checked ~ .hoothoot__eye::after{
     right:35%;
 }
 
-@media screen and (min-width: 37.5rem) {
+@media screen and (min-width: 50rem) {
     .hoothoot{
         transform:scale(1);
     }
