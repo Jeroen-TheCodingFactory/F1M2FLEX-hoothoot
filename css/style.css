@@ -16,6 +16,7 @@
  --background-light-color: #F4A442;
  --background-dark-color: #d57b0c;
  /* scales */
+ /* mobile scale is removed as var in code because of glitch on older iphone's */
  --mobile-scale: 0.6;
  --desktop-scale: 1;
 }
@@ -214,6 +215,7 @@ body{
         40%,
         var(--hoothoot-black-color));
     transform:translateX(-38%);
+    -webkit-clip-path: polygon(50% 0%, 100% 80%, 60% 100%, 40% 100%, 0% 80%);
     clip-path: polygon(50% 0%, 100% 80%, 60% 100%, 40% 100%, 0% 80%);
 }
 
@@ -229,6 +231,6 @@ body{
 
 @media screen and (min-width: 37.5rem) {
     .hoothoot{
-        transform:scale(var(--desktop-scale));
+        transform:scale(0.6);
     }
 }
