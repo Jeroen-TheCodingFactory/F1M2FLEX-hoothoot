@@ -9,6 +9,15 @@
  --hoothoot-body-color: #8B4840;
  --hoothoot-belly-color: #D2AE9F;
  --hoothoot-black-color: #040303;
+ --hoothoot-eye-color: #A13333;
+ --hoothoot-beak-light-color:#f779a0;
+ --hoothoot-beak-dark-color:#f5598a;
+ --hoothoot-black-gradient-transparent: rgba(4, 3, 3,0.6);
+ --background-light-color: #F4A442;
+ --background-dark-color: #d57b0c;
+ /* scales */
+ --mobile-scale: 0.6;
+ --desktop-scale: 1;
 }
 
 html{
@@ -20,7 +29,10 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(45deg,#F4A442,30%,#d57b0c);
+    background:linear-gradient(
+        45deg,var(--background-light-color),
+        30%,
+        var(--background-dark-color));
     overflow: hidden;
 }
 
@@ -29,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     position:relative;
-    transform:scale(0.5);
+    transform:scale(var(--mobile-scale));
 }
 
 .hoothoot__body{
@@ -63,7 +75,7 @@ body{
     height:17rem;
     position:absolute;
     top:12%;
-    background:#A13333;
+    background:var(--hoothoot-eye-color);
     border-radius: 50%;
     border: 2rem solid var(--hoothoot-black-color);
     z-index: 1;
@@ -111,7 +123,10 @@ body{
     position:absolute;
     left:50%;
     top:33%;
-    background: linear-gradient(#f779a0,50%,#f5598a);
+    background: linear-gradient(
+        var(--hoothoot-beak-light-color),
+        50%,
+        var(--hoothoot-beak-dark-color));
     width:5.5rem;
     height:9rem;
     border-radius: 50%;
@@ -194,7 +209,10 @@ body{
     left:0%;
     width:11rem;
     height:16rem;
-    background:linear-gradient(rgb(4, 3, 3,0.6),40%,#040303);
+    background:linear-gradient(
+        var(--hoothoot-black-gradient-transparent),
+        40%,
+        var(--hoothoot-black-color));
     transform:translateX(-38%);
     clip-path: polygon(50% 0%, 100% 80%, 60% 100%, 40% 100%, 0% 80%);
 }
@@ -211,6 +229,6 @@ body{
 
 @media screen and (min-width: 37.5rem) {
     .hoothoot{
-        transform:scale(1);
+        transform:scale(var(--desktop-scale));
     }
 }
