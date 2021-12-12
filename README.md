@@ -11,6 +11,12 @@ Hoothoot voor de lol nagemaakt in HTML en CSS. Met interactie wanneer je op Hoot
 Bij het vak "Flex CSS-Art" leren studenten van de opleiding Software Developer op het Mediacollege (Ma) kleine kunstwerkjes maken met HTML en CSS. In week 6 (6e les) leren studenten één van mijn favoriete Pokémon, Hoothoot, maken. In eerste instantie met een animatie die afspeelt wanneer je over Hoothoot "hovered". Voor de studenten die wat extra willen is er een animatie gerealiseerd die aan- en uitgezet kan worden door op het figure te klikken. Dit allemaal in HTML en CSS. Het afspelen van de audio gebeurd in Javascript (ook extra).
 
 ## Dingen die ik heb geleerd
+1. Opnieuw gebruik gemaakt van een checkbox en label voor het aan en uitzetten van een transitie. 
+2. Opnieuw een label over een figure heengezet met position absolute voor het aan en uitzetten van een checkbox (en daarbij een click-effect simuleren).
+3. Hoe je met clip-path een complexere vorm kan uitsnijden.
+4. Hoe een hele kleine blur, bijvoorbeeld 1px, een kleur meer kan lijken op een vacht (door de blur).
+5. Hoe een kleine border-bottom op een circle, zonder andere borders, op een ooglid lijkt.
+6. Hoe je met een transition-delay beter op een muziekje kan aansluiten, zoals bij Hoothoot zijn/haar "cry".
 
 ## Screenshots
 Verschillende screenshots van Hoothoot op desktop.
